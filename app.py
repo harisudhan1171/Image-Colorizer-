@@ -16,9 +16,9 @@ import os
 os.makedirs("models", exist_ok=True)
 
 files = {
-    "models\colorization_release_v2.caffemodel": "https://mega.nz/file/7igUnCab#vSOiiHK77L3V0B76Dht2p25i8Yr9dZ4XyNT-Ru9l5O8",
-    "models\models_colorization_deploy_v2.prototxt": "https://mega.nz/file/jmxDwJqD#iBE5Fr-nwQOfQP4Pecbg2VA7IV8gH4zSwgYeW91ZMck",
-    "models\pts_in_hull.npy": "https://mega.nz/file/nqgDQY7Q#KqQhY2R4tE1Qf0zuyfl-5022GzP7XIjU6ehQ3PDusgU"
+    "models/colorization_release_v2.caffemodel": "https://mega.nz/file/7igUnCab#vSOiiHK77L3V0B76Dht2p25i8Yr9dZ4XyNT-Ru9l5O8",
+    "models/models_colorization_deploy_v2.prototxt": "https://mega.nz/file/jmxDwJqD#iBE5Fr-nwQOfQP4Pecbg2VA7IV8gH4zSwgYeW91ZMck",
+    "models/pts_in_hull.npy": "https://mega.nz/file/nqgDQY7Q#KqQhY2R4tE1Qf0zuyfl-5022GzP7XIjU6ehQ3PDusgU"
 }
 
 for output, url in files.items():
